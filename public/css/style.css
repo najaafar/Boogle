@@ -1,0 +1,36 @@
+.container{
+  width: 100%;
+}
+
+.page-header{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.searchbox{
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  text-align: center;
+}
+
+.searchbox input#search{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "boogle",
+  "title": "Boogle",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "3.5.1",
+    "express-myconnection": "1.0.4",
+    "jade": "*",
+    "bower": "1.8.0",
+    "bootstrap": "3.3.7",
+    "mysql": "2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/najaafar/Boogle.git"
+  }
+}
