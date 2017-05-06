@@ -2,13 +2,33 @@
 </html>
     <head>
         <title>Boogle</title>
+
         <link href="/../css/style.css" rel="stylesheet">
-        <script src="/scripts/js/bootstrap.min.js"></script>
+        <link href="/../css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
         <div id="wrapper">
             <div class="page-header">
-                <img src="/../images/boogle.png">
+                <img id = "bannerLogo" src="/../images/boogle.png">
+                <div class="row">
+    		        <div class="col-md-3">
+    				</div>
+    		        <div class="col-md-6">
+    					  <div class="input-group searchbox">
+    					      <input type="text" id="input" class="form-control" placeholder="Search...">
+    					      <span class="input-group-btn">
+    					        <button class="btn btn-secondary" type="button" id="search"><span class="glyphicon glyphicon-search"></span></button>
+    					      </span>
+    					   </div>
+                           <br/>
+    				</div>
+    				<div class="col-md-3">
+    				</div>
+    			</div>
             </div>
-			<div class="container">
-            
+        </div>
+			<div class="container" id = "container">
+                <p id = "resultData"></p>
+                <div id="output">
+
+                </div>
