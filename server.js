@@ -7,11 +7,30 @@ var express = require('express');
 var routes = require('./routes');
 var http = require('http');
 var path = require('path');
+var tm = require('textmining');
+var tm2 = require('text-miner');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //load customers route
 var app = express();
 
-var connection  = require('express-myconnection'); 
+var connection  = require('express-myconnection');
 var mysql = require('mysql');
 
 // all environments
@@ -24,7 +43,7 @@ app.use(express.urlencoded());
 app.use(express.methodOverride());
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/scripts', express.static(__dirname + 'node_modules/bootstrap/dist/'));
+app.use('/css', express.static(__dirname + 'node_modules/bootstrap/dist/'));
 
 // development only
 if ('development' == app.get('env')) {

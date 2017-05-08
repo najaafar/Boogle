@@ -1,7 +1,42 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+body{
+    font-weight: arial, san-serif;
+}
 .container{
   width: 100%;
 }
 
+div#container{
+    padding: 3vh 17vw;
+}
+
+p#resultData{
+    color: #808080;
+    font-size: 0.8em;
+}
+
+
+#output p{
+    color: #545454;
+    font-size: 15px;
+}
+
+#title{
+    font-size: 20px;
+    color: #1a0dab;
+}
+#title:visited{
+    color: #609;
+}
+
+cite{
+    color: #006621;
+}
+
+#output{
+    margin-top: 20px;
+    height: auto;
+}
 .page-header{
   margin-top: 100px;
   text-align: center;
@@ -33,4 +68,12 @@
   position: absolute;
   top: 50%;
   left: 40%;
+}
+
+div#wrapper{
+    margin-top:2vh;
+}
+
+#bannerLogo{
+    margin-bottom: 1.5vh;
 }

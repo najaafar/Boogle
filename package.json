@@ -4,13 +4,16 @@
   "version": "0.0.1",
   "main": "server.js",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bower": "1.8.0",
     "ejs": "^1.0.0",
-    "express": "3.5.1",
+    "express": "^3.5.1",
     "express-myconnection": "1.0.4",
     "jade": "*",
-    "bower": "1.8.0",
-    "bootstrap": "3.3.7",
-    "mysql": "2.2.0"
+    "mysql": "2.2.0",
+    "rnode": "0.0.2",
+    "text-miner": "^1.0.5",
+    "textmining": "^1.0.3"
   },
   "repository": {
     "type": "git",
